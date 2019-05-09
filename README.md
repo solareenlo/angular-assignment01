@@ -6,9 +6,11 @@ Angular, Docker, docker-composeを使った例その01.
 
 ## Usage
 ```bash
-git clone
-cd
+git clone git@github.com:solareenlo/angular-assignment01.git
+cd angular-assignment01
 docker-compose up -d
+# コンテナ内で作業する
+docker-compose exec angular sh
 ```
 で, 任意のブラウザで`localhost:4201`を開く.
 
